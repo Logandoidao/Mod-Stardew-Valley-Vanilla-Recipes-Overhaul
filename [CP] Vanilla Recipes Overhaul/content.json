@@ -1,0 +1,230 @@
+{
+  "Format": "1.13.0",
+  "ConfigSchema": {
+	"Chest": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+	"Torch": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+	"Wood Sign": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+	"Stone Sign": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		}
+	"Scarecrow": {
+	"AllowValues": "true, false",
+	"Default": "true",
+	"AllowBlank": false,
+	},					
+	"Wood Fence": {
+	"AllowValues": "true, false",
+	"Default": "true",
+	"AllowBlank": false,
+	},
+	
+	"NovosItens": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"AllowBlank": false,
+		},
+		
+	"NovosItens": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"AllowBlank": false,
+		},
+	
+	"NovosItens": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"AllowBlank": false,
+		},
+		
+	"NovosItens": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"AllowBlank": false,
+		},
+		
+		
+  },
+		
+  "Changes": [
+    
+	   //Chest Uses 10 wood 
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+             "Chest": {
+                "0": "388 10"
+             }
+		  },
+		    "When": {
+			"Chest": "true",
+			},
+       },
+	   //Torch uses 1 sap8
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "Torch": {
+			 "0": "388 1 92 1"
+			 },
+          },
+		    "When": {
+			"Torch": "true",
+			},
+       },
+	   //Wood Sig uses 5 wood
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "Wood Sign": {
+			 "0": "388 5"
+			 },
+          },
+		  	"When": {
+			"Wood Sign": "true",
+			},
+       },
+	   //Stone Sign uses 5 stone
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "Stone Sign": {
+			 "0": "335 1 338 1 767 1"
+			 },
+          },
+		  	"When": {
+			"Stone Sign": "true",
+			},
+       },
+	   //Scarecrow
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "Scarecrow": {
+			 "0": "388 5 382 1 771 5"
+			 },
+          },
+		  	"When": {
+			"Scarecrow": "true",
+			},
+       },		
+	   
+	   //Wood Fence
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "Wood Fence": {
+			 "0": "335 1 338 1 767 1"
+			 },
+          },
+		  	"When": {
+			"Wood Fence": "true",
+			},
+       },		
+	   
+	   //NovosItens
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "NovosItens": {
+			 "0": "335 1 338 1 767 1"
+			 },
+          },
+		  	"When": {
+			"NovosItens": "true",
+			},
+       },		
+	   
+	   //NovosItens
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "NovosItens": {
+			 "0": "335 1 338 1 767 1"
+			 },
+          },
+		  	"When": {
+			"NovosItens": "true",
+			},
+       },		
+	   
+	   //NovosItens
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "NovosItens": {
+			 "0": "335 1 338 1 767 1"
+			 },
+          },
+		  	"When": {
+			"NovosItens": "true",
+			},
+       },		
+	   
+	   //NovosItens
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "NovosItens": {
+			 "0": "335 1 338 1 767 1"
+			 },
+          },
+		  	"When": {
+			"NovosItens": "true",
+			},
+       },		
+	   
+	   //NovosItens
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "NovosItens": {
+			 "0": "335 1 338 1 767 1"
+			 },
+          },
+		  	"When": {
+			"NovosItens": "true",
+			},
+       },		
+	   
+	   //NovosItens
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "NovosItens": {
+			 "0": "335 1 338 1 767 1"
+			 },
+          },
+		  	"When": {
+			"NovosItens": "true",
+			},
+       },
+	
+	
+	]
+}
